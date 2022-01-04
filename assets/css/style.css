@@ -1,0 +1,53 @@
+body{
+	background: #0392cf !important;
+}
+
+.todo-add{
+	width: 60% !important;
+	height: 60px;
+	margin: 0 auto;
+
+}
+
+.todo-add_input{
+	font-size: 20px !important;
+	box-shadow: none !important;
+	border: 0px solid white !important;
+	border-radius: 0px 0px 0px 8px !important;
+}
+
+.todo-add_btn{
+	width: 12%;
+	border: 0px solid grey !important;
+	border-radius: 0px 0px 8px 0px !important;
+	background-color: #7bc043 !important;
+	font-size: 20px !important;
+	color: black !important;
+}
+
+.todo-list{
+	margin-top: 40px;
+}
+
+.todo-task{
+	display: flex;
+	align-items: flex-end;
+}
+
+.todo-task_name{
+	font-size: 30px;
+	margin: 0 15px;
+	color:  white;
+}
+
+.todo-task_doneBtn{
+	width: 70px;
+	height: 50px;
+	margin: 0 5px;
+}
+
+.todo-task_deleteBtn{
+	margin: 0 5px;
+		width: 70px;
+	height: 50px;
+}
