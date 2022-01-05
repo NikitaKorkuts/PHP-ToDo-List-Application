@@ -1,5 +1,5 @@
 body{
-	background: #0392cf !important;
+	background: #21B6A8 !important;
 }
 
 .todo-add{
@@ -32,12 +32,14 @@ body{
 .todo-task{
 	display: flex;
 	align-items: flex-end;
+	margin: 25px 0;
 }
 
 .todo-task_name{
 	font-size: 30px;
 	margin: 0 15px;
 	color:  white;
+	font-weight: 200;
 }
 
 .todo-task_doneBtn{
@@ -50,4 +52,15 @@ body{
 	margin: 0 5px;
 		width: 70px;
 	height: 50px;
+}
+
+.none{
+	display: none;
+}
+
+.done{
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: line-through;
+	font-style: oblique;
+	font-weight: 100;
 }
